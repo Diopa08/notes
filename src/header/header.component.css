@@ -1,0 +1,11 @@
+.red {
+    background-color: red;
+  }
+  .title{
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    color:#fff;
+    border:none;
+    text-align: center;
+    font-weight: bold;
+
+  }

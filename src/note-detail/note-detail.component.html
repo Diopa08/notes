@@ -1,0 +1,15 @@
+<div *ngIf="note" id="note-container">
+     <h4>Title</h4>
+    <p contenteditable="true" class="note-title"> {{ note.title }}</p>
+    <h4>Id</h4>
+    <p class="note-id"> {{ note.id }}</p>
+    <h4>Text</h4>
+    <p contenteditable="true" class="note-text">{{ note.text }}</p>
+
+    <div class="button">
+      <button (click)="deleteNote(note.id)" class="back">Delete</button>
+    </div>
+  </div>
+  <div class="button">
+    <button routerLink="" class="back">Back to List</button>
+  </div>
